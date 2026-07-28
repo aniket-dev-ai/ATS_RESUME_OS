@@ -29,11 +29,7 @@ def _secret(key: str, section: str = 'supabase') -> str:
 SUPABASE_URL = _secret('SUPABASE_URL')
 SUPABASE_ANON_KEY = _secret('SUPABASE_ANON_KEY')
 
-OAUTH_REDIRECT_URL = (
-    os.getenv('AUTH_REDIRECT_URL')
-    or _secret('redirect_uri', 'google_oauth')
-    or 'https://ats-resume-os.streamlit.app/'
-)
+OAUTH_REDIRECT_URL = ('https://ats-resume-os.streamlit.app/')
 
 
 def _missing_config() -> str | None:
