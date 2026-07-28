@@ -13,7 +13,7 @@ from backend.core.config import(
 )
 # from backend.api.routes import router
 
-logger=logging.getLogger('ats_resume_os')
+logger=logging.getLogger('ats_resume_scorer')
 
 @asynccontextmanager
 async def lifespan(app:FastAPI):
