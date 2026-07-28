@@ -14,7 +14,7 @@ APP_VERSION='1.0.0'
 APP_DESCRIPTION='analyse resumes against job description using nlp + ml'
 
 ALLOWED_ORIGINS = [
-    '*'
+    'https://ats-resume-os.streamlit.app/'
 ]  
 
 #file 

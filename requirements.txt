@@ -4,6 +4,8 @@ uvicorn[standard]>=0.27
 pydantic>=2.6
 python-multipart>=0.0.9      # required by FastAPI for File/Form uploads
 python-dotenv>=1.0
+reportlab
+beautifulsoup4
 
 # ── Backend: NLP / ML ──
 spacy>=3.7,<4.0
