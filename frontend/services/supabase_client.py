@@ -32,7 +32,7 @@ SUPABASE_ANON_KEY = _secret('SUPABASE_ANON_KEY')
 OAUTH_REDIRECT_URL = (
     os.getenv('AUTH_REDIRECT_URL')
     or _secret('redirect_uri', 'google_oauth')
-    or 'http://localhost:8501'
+    or 'https://ats-resume-os.streamlit.app/'
 )
 
 
