@@ -1,2 +1,14 @@
 .env
 checkpoints
+__pycache__/
+
+
+# Datasets
+*.csv
+
+# Logs
+*.log
+
+# ML models
+*.safetensors
+*.pkl

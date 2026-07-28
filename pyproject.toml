@@ -24,6 +24,7 @@ dependencies = [
     "python-magic>=0.4.27",
     "python-multipart>=0.0.9",
     "rapidfuzz>=3.6",
+    "reportlab>=5.0.0",
     "requests>=2.31",
     "seaborn>=0.13.2",
     "sentence-transformers>=2.5",
