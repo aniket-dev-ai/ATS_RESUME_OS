@@ -10,6 +10,7 @@ spacy>=3.7,<4.0
 sentence-transformers>=2.5
 numpy>=1.26
 rapidfuzz>=3.6
+datasets
 
 # ── Backend: file parsing ──
 pdfplumber>=0.11
